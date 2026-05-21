@@ -7,18 +7,21 @@
   <a-scene>
   <a-assets>
     <a-asset-item id="tree-obj" src="tree.obj"></a-asset-item>
+    <a-asset-item id="airplane" src="airplane.obj"></a-asset-item>
+    <!-- <a-asset-item id="dog" src="dog.obj"></a-asset-item> -->
+    <a-asset-item id="airplane" src="airplane.obj"></a-asset-item>
     <img id="texture3" src="texture3.jpg">
-    <img id="card"src="card.jpg">
-    <a-asset-item id="dog" src="dog.obj"></a-asset-item>
   </a-assets>
     <a-sky src="PC.jpg" radius="45"></a-sky>
     <a-plane position="0 0 -4" rotation="-90 0 0" width="50" height="50" src="#texture3">  </a-plane>
     <a-obj-model src="#tree-obj" material="shader:flat;src:#texture3" position="0 0 0" scale="1 1 1"> </a-obj-model>
-    <!-- <a-obj-model src="#tree-obj"  position="-6 0 -2"> </a-obj-model>
-    <a-obj-model src="#tree-obj"  position="-10 0 -6" >  </a-obj-model>
-    <a-obj-model src="#tree-obj"  position="-8 0 -12" ></a-obj-model>
-    <a-obj-model src="#tree-obj"  position="7 0 -3" ></a-obj-model> -->
-    <a-obj-model src="#dog-obj"  position="6 0 5" scale=".5 .5 .5"> </a-obj-model>
+    <a-obj-model src="#airplane" material="" position="5 5 5" scale=".001 .001 .001"> </a-obj-model>
+    <a-obj-model src="#airplane" material="" position="0 5 5" scale=".001 .001 .001"> </a-obj-model>
+    <a-obj-model src="#tree-obj"  material="shader:flat;src:#texture3" position="-6 0 -2"> </a-obj-model>
+    <a-obj-model src="#tree-obj"  material="shader:flat;src:#texture3" position="-10 0 -6" >  </a-obj-model>
+    <a-obj-model src="#tree-obj"  material="shader:flat;src:#texture3" position="-8 0 -12" ></a-obj-model>
+    <a-obj-model src="#tree-obj"  material="shader:flat;src:#texture3" position="7 0 -3" ></a-obj-model>
+    <!-- <a-obj-model src="#dog"  material="shader:flat;src:#texture3" position="6 0 5" scale=".0005 .0005 .0005"> </a-obj-model> -->
     <!-- <a-obj-model src="#dog-obj" position="6 0 5"  src="texture3.jpg"  scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
     <a-obj-model src="#dog-obj" position="3 0 4" src="texture3.jpg"   scale="0.4 0.4 0.4" rotation="0 45 0"></a-obj-model>
     <a-obj-model src="#dog-obj" position="-3 0 5" src="texture3.jpg"  scale="0.6 0.6 0.6" rotation="0 -30 0"></a-obj-model>
